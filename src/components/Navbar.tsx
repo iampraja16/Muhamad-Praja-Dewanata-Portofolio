@@ -35,7 +35,7 @@ const Navbar = () => {
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
     >
-      <div className="bg-purple-700/50 backdrop-blur-md px-8 py-4 rounded-full border border-purple-500/30">
+      <div className="bg-purple-700/30 backdrop-blur-md px-8 py-4 rounded-full border border-purple-500/30">
         <ul className="flex space-x-8">
           {navItems.map((item) => (
             <motion.li
